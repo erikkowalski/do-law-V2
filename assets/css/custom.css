@@ -1,0 +1,622 @@
+@font-face {
+    font-family: 'ashbury-lightregular';
+    src: url('../fonts/AshburyLig-webfont.eot');
+    src: url('../fonts/AshburyLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AshburyLig-webfont.woff') format('woff'),
+         url('../fonts/AshburyLig-webfont.ttf') format('truetype'),
+         url('../fonts/AshburyLig-webfont.svg#ashbury-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+height: auto;
+}
+img.size-full {
+max-width: 100%;
+width: auto; }
+
+img.wp-post-image {
+	max-width: 100%;
+	height:auto;
+
+}
+
+
+body {
+    padding-top: 70px;
+    background-image: url(../img/pw_pattern.png);
+}
+
+.navbar-inverse .navbar-brand {
+    font-weight: 100;
+    color: #c1c1c1;
+    font-size: 2em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+
+.description {
+    font-size:1em;
+	font-weight:100;
+    color: black;
+    margin-top: 1.8em;
+    float: left;
+}
+.navbar-inverse .navbar-brand:hover {
+text-shadow: 0px 0px 15px rgb(60, 60, 60);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight:300;
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    text-shadow: 0px 0px 35px rgb(255, 255, 255);
+}
+
+.admin-bar .navbar {
+    margin-top: 30px;
+}
+
+
+
+.phone-number {
+    float: left;
+    display: inline-block;
+    color: #c1c1c1;
+    font-size: 1.1em;
+    padding-top: 1.3em;
+    font-weight: 300;
+    font-family: "lato";
+}
+
+.jumbotron {
+background-color: white;
+}
+
+/*--- Heo Unuit Styles ------*/
+
+@media (min-width: 700px) {
+.jumbotron {
+    background-image:url('../img/justice.png');
+}
+
+
+
+}
+
+@media (min-width: 980px) {
+.jumbotron {
+    margin-top:1em;
+}
+}
+
+.jumbotron h1 {
+    color:#710000;
+
+}
+
+@media (min-width: 700px) {
+.jumbotron p {
+    width:85%;}
+}
+
+@media (min-width: 980px) {
+.jumbotron p {
+    width:65%;}
+
+.jumbotron h1 {
+    font-size: 4em;
+}
+}
+
+
+@media (min-width: 1200px) {
+.jumbotron p {
+    width:50%;}
+}
+
+
+
+/*--- End Heo Unuit Styles ------*/
+@media (max-width: 400px) {
+#contact h1, .maijumbotron h1 {
+    font-size:2em;
+}
+}
+
+
+.page-header {
+    margin-top: 0;
+}
+
+
+.news {
+    background: white;
+    border-radius: 5px;
+}
+
+.news h1 {
+    padding-left: 0.5em;
+    color: #710000;
+}
+
+.news h2 a, .news h2 {
+    color: black;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+
+.news h2 a:hover {
+        color: #9d9d9d;
+}
+
+.news img {
+    padding-bottom: 1em;
+}
+
+
+/*----------- Side Bar Styles -----------*/
+
+.sidebar {
+    margin-top: 1em;
+}
+
+.sidebar h3 {
+	font-size:1.5em;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+    font-weight: 100;
+    color: #464646;
+}
+
+.sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+
+.sidebar a {
+    color: #838383;
+}
+
+.sidebar a:hover {
+    color: #1f6ed9;
+}
+
+.widget a {
+    font-family: 'lato',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+}
+
+/*----------- Single Post  -----------*/
+
+.single-post .author, .single-post .published{
+    color: #333;
+}
+
+.single-post .author a {
+     color: #333;
+}
+
+
+/*----------- Carousel -----------*/
+
+.carousel {
+    margin:2em 0;
+}
+
+
+/*----------- Comments -----------*/
+
+#comments {
+	background:rgba(255, 255, 255, 0.9);
+	border-top:1px solid #7c7c7c;
+}
+
+#comments h3 {
+	font-size:1em;
+	font-weight:800;
+	text-transform:uppercase;
+}
+
+#comments h4, #comments time {
+	display:inline-block;
+}
+
+
+} /*------- open media quiere -----*/
+
+@media (min-width: 480px) {
+
+#comments .media-body p {
+	padding-right:15em;
+}
+} /*------- close media quiere -----*/
+
+
+
+
+/*----------- 404-----------*/
+
+.not-found {
+    max-width: 760px;
+    margin-bottom:6em;
+}
+
+.not-found h1 {
+    font-size: 5em;
+    font-weight: 100;
+
+}
+
+.alert-warning {
+    background:  rgb(255, 255, 255);
+    border-color: #eeeeee;
+    color: #000;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.not-found hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: white;
+}
+
+/*----------- footer -----------*/
+
+footer {
+    padding-bottom: 2em;
+        background: #f8f8f8;
+
+
+}
+
+footer p {
+	font-family: "lato";
+    font-weight: 400;
+
+}
+
+.content-info {
+	background:#f8f8f8;
+	margin-bottom:0;
+	border-top:20px solid #cbcbcb;
+}
+
+.content-info h3 {
+	letter-spacing:0.1em;
+	font-weight:400;
+}
+
+
+
+.content-info, .content-info p{
+	font-weight:200;
+	font-size:1.1em;
+
+}
+
+.content-info, .content-info a {
+    color: black;
+}
+
+.content-info h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.content-info ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container > p {
+	letter-spacing:0.08em;
+	text-align:center;
+
+}
+
+.footer-bottom {
+    padding: 4em 0;
+}
+
+.content-info .footer-bottom .copyright {
+    text-align: center;
+    font-weight: 400;
+}
+
+.content-info .footer-bottom .blog-name {
+    font-size:1em;
+    letter-spacing:0.02em;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'lato';
+}
+
+
+
+
+/* add boostrap grid col-md-3 styling to footer widgets */
+
+.content-info .widget {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+@media (min-width: 768px) {
+.content-info .widget {
+    float: left;
+    width: 50%;
+  }
+
+  }
+
+@media (min-width: 992px) {
+.content-info .widget {
+		float: left;
+		width: 25%;
+	}
+} /* close media querie */
+
+
+/*--------- Contact form -----------*/
+
+#contact-form {
+    margin-top: 4em;
+}
+
+.contact h1 {
+    text-align: center;
+    padding: 1em 0 0.1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+
+
+.page-template-template-contact-php {
+      background: black;
+    background-repeat: no-repeat;
+    background-image: url(../img/law-books-sm.jpg);
+    background-size: contain;
+
+}
+
+.contact form label {
+    color: white;
+    letter-spacing: 0.02em;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 0.4em;
+}
+
+.contact form label span {
+    font-weight: 100;
+}
+
+.radio {
+    padding-left: 1.8em;
+}
+
+.contact form div:nth-child(6) {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+.contact .content-info {
+
+    border-top: 5px solid black;
+}
+
+
+ input {
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact textarea {
+     color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#contact-form  .radio{
+    font-weight: 100;
+    text-transform: none;
+}
+
+.contact div {
+    margin-bottom: 2em;
+}
+
+.contact-form .clear-form {
+    margin: 0;
+}
+
+.contact-submit input{
+    background-color: #bf0021;
+    border-color: #ac253d;
+    font-family: lato,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 2em;
+    letter-spacing: 0.2em;
+    padding: 10px 16px;
+    line-height: 1.33;
+    border-radius: 6px
+}
+
+
+.contact-submit input:hover{
+    background: #972135;
+}
+
+/*--------- About -----------*/
+
+.about {
+    margin-bottom: 5em;
+}
+
+
+/*---------------------------------
+MEDIA QUERIES FOR RESPONSIVE DESIGN
+------------------*/
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+/* -------- iPhone ---------- */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+
+
+}/*    <--- Close iPhone --- */
+
+
+
+/* --- iPad --- */
+
+@media only screen
+and (min-device-width : 768px )
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+}/* <--- Close iPad --- */
+
+
+
+
+/* -----------------///// @screen-sm-min /////-----------> */
+
+@media (min-width: 768px) {
+
+.page-template-template-contact-php {
+        background-image: url(../img/law-books.jpg);
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px)  {
+
+
+
+} /* <------ close 768px breakpoint///// @screen-sm-min /////-------*/
+
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+   .contact {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+
+
+
+} /* <------ close 1200px breakpoint///// @screen-lg-min@max /////-------*/
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 1200px) {
+
+   .contact {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+
+
+} /* <------ close 1200px breakpoint///// @screen-lg-min /////-------*/
